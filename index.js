@@ -1,3 +1,3 @@
 const getFirstSelector = (selector) => {
-  return
+  return this.querySelector(selector)
 }
