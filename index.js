@@ -8,4 +8,5 @@ const nestedTarget = () => {
 
 const increaseRankBy(n) = (n) => {
   const rankedList = document.querySelectorAll('.ranked-list')
+  rankedList.map(function (element) {parseInt(element.innerHTML)++ })
 }
