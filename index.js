@@ -2,6 +2,6 @@ const getFirstSelector = (selector) => {
   return document.querySelector(selector)
 }
 
-const nestedTarget = (target, nested) => {
-  return
+const nestedTarget = () => {
+  return document.querySelector( '#nested .target')
 }
