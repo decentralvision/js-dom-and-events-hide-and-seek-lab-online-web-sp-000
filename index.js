@@ -1,3 +1,3 @@
-const getFirstSelector = () => {
+const getFirstSelector = (selector) => {
   return
 }
